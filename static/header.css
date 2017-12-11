@@ -1,16 +1,21 @@
+
 body {
     margin: 0;
+    background-color: #3b3b3b;
 }
 .header {
     height: 80px;
-    background: #651FFF;
+    background: #d77a61;
     display: flex;
+    width: 100%;
+    box-shadow: 0 0 10px black;
 }
 
 .title {
+   font-family: 'Zilla Slab Highlight', cursive;
     color: white;
     align-self: center;
     margin: 0 32px;
-    font-size: 1.5rem;
+    font-size: 50px;
     font-weight: 100;
 }

@@ -3,11 +3,17 @@
 {% block content %}
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'signup.css' %}"/>
-
+    <title>Sign Up</title>
     <div class="signup-container" align="center">
-
+        
+<!--        <div class="login-column">-->
         <form method="post" class="signup"> {% csrf_token %}
             <div>
+                <h1>Sign Up</h1>
+            </div>
+            
+            <div>
+                
                 <label for="id_username"></label>
                 <input type="text" name="email" placeholder="Email address" autofocus required
                        id="id_username">
@@ -26,8 +32,9 @@
             </div>
 
 
-            <button type="submit">Sign Up</button>
+            <button type="submit">Submit</button>
         </form>
 
     </div>
+        </div>
 {% endblock %}
